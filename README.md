@@ -24,7 +24,12 @@ cp .env.example .env
 
 # iniciar frontend y backend en modo desarrollo
 npm run dev
+
+# en otra terminal, iniciar el worker
+npm run dev -w worker
 ```
+
+`npm run build` compilará todos los paquetes, incluido el worker.
 
 Consulta la documentación de cada paquete en su carpeta correspondiente para más detalles.
 
