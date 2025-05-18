@@ -11,6 +11,7 @@ Este repositorio contiene una aplicación web de ejemplo para transformar audio 
 - Node.js 18+
 - PostgreSQL y Supabase con la extensión `pgvector` habilitada.
 - Redis para las colas de BullMQ.
+- yt-dlp y FFmpeg instalados en el sistema para descargar audios.
 
 ## Uso básico
 
@@ -28,6 +29,8 @@ npm run dev
 # en otra terminal, iniciar el worker
 npm run dev -w worker
 ```
+
+Las transcripciones generadas se almacenan por defecto en `worker/transcripts` y los audios descargados en `worker/downloads`.
 
 `npm run build` compilará todos los paquetes, incluido el worker.
 
