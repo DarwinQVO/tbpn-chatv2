@@ -1,0 +1,15 @@
+{
+  "name": "audio-text-tool-worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "build": "echo 'no build step'"
+  },
+  "dependencies": {
+    "bullmq": "^4.8.3",
+    "ioredis": "^5.3.2",
+    "yt-dlp-wrap": "^2.8.0",
+    "deepgram": "^5.2.2"
+  }
+}
