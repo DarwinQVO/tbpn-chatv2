@@ -18,6 +18,10 @@ Este repositorio contiene una aplicación web de ejemplo para transformar audio 
 # instalar dependencias
 npm install
 
+# copiar variables de entorno de ejemplo y personalizarlas
+cp .env.example .env
+# edita el archivo .env para agregar tus claves y URLs
+
 # iniciar frontend y backend en modo desarrollo
 npm run dev
 ```
